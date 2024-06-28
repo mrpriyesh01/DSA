@@ -1,0 +1,12 @@
+import array as arr
+
+myarray1= arr.array('i', [1, 2, 3, 4])
+
+def accesselement(array,indrx):
+   if index>=array[i]:
+       print("not in array")
+   else:
+       print("yes it is in array")
+
+
+accesselement(myarray1,3)
