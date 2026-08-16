@@ -1,0 +1,5 @@
+n = 1234
+while n > 0:
+    last_digit = n % 10      # gets the rightmost digit
+    print(last_digit)
+    n = n // 10               # removes that digit from n
